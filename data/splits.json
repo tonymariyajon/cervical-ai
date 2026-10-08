@@ -1,0 +1,2060 @@
+{
+  "random_seed": 42,
+  "target_proportions": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "total_slides": 400,
+  "total_cells": 11534,
+  "slide_counts": {
+    "train": 280,
+    "val": 60,
+    "test": 60
+  },
+  "cell_counts": {
+    "train": 8077,
+    "val": 1719,
+    "test": 1738
+  },
+  "class_counts": {
+    "SCC": {
+      "train": 126,
+      "val": 18,
+      "test": 17
+    },
+    "ASC-H": {
+      "train": 659,
+      "val": 132,
+      "test": 134
+    },
+    "HSIL": {
+      "train": 1201,
+      "val": 243,
+      "test": 259
+    },
+    "ASC-US": {
+      "train": 430,
+      "val": 88,
+      "test": 88
+    },
+    "LSIL": {
+      "train": 954,
+      "val": 203,
+      "test": 203
+    },
+    "Negative for intraepithelial lesion": {
+      "train": 4707,
+      "val": 1035,
+      "test": 1037
+    }
+  },
+  "splits": {
+    "train": [
+      {
+        "image_id": 2,
+        "image_filename": "9d0f43b29d78f673e9caf77928b4af3c.png",
+        "cell_count": 20
+      },
+      {
+        "image_id": 3,
+        "image_filename": "8b312497db839bbe14c41fb18badbc23.png",
+        "cell_count": 13
+      },
+      {
+        "image_id": 4,
+        "image_filename": "4fb1ebbd1adb2da024ffe2394c1712c9.png",
+        "cell_count": 16
+      },
+      {
+        "image_id": 5,
+        "image_filename": "5b7cc4b7d0373fab44cc5686ba477e0c.png",
+        "cell_count": 28
+      },
+      {
+        "image_id": 6,
+        "image_filename": "d1139b2167d9254c2e29edb485c1bda8.png",
+        "cell_count": 14
+      },
+      {
+        "image_id": 7,
+        "image_filename": "df075c7d02cc7729bd04b5996a3e8991.png",
+        "cell_count": 52
+      },
+      {
+        "image_id": 8,
+        "image_filename": "1f8274db391ed2747c0c3a8560bf6d3a.png",
+        "cell_count": 47
+      },
+      {
+        "image_id": 12,
+        "image_filename": "1766e5c4a2a6034960b40bdd3c47c297.png",
+        "cell_count": 7
+      },
+      {
+        "image_id": 14,
+        "image_filename": "746c084dbe0b987385df13ddbf4dd635.png",
+        "cell_count": 28
+      },
+      {
+        "image_id": 16,
+        "image_filename": "42e7a4f3bd69279d8b1bc4ea8e248f08.png",
+        "cell_count": 45
+      },
+      {
+        "image_id": 17,
+        "image_filename": "602e28f6537d6638bc4ccbe4cde5fab1.png",
+        "cell_count": 25
+      },
+      {
+        "image_id": 18,
+        "image_filename": "3659bf68aeea760b319cd0710e3651fb.png",
+        "cell_count": 52
+      },
+      {
+        "image_id": 19,
+        "image_filename": "8457af003b1ad48e907156b5e6e53bea.png",
+        "cell_count": 36
+      },
+      {
+        "image_id": 20,
+        "image_filename": "edc748c10f4cd73535452d54b0d7a1a6.png",
+        "cell_count": 9
+      },
+      {
+        "image_id": 21,
+        "image_filename": "faf0a263bf469832c7569a5ccbaa48c3.png",
+        "cell_count": 22
+      },
+      {
+        "image_id": 24,
+        "image_filename": "e49e5d68eaf20468db941ac76632674f.png",
+        "cell_count": 14
+      },
+      {
+        "image_id": 27,
+        "image_filename": "36a2bc6bae69351df86a4a2fe4d49c2a.png",
+        "cell_count": 37
+      },
+      {
+        "image_id": 28,
+        "image_filename": "c5a3e789e449a8123509be5fd671b6b2.png",
+        "cell_count": 45
+      },
+      {
+        "image_id": 29,
+        "image_filename": "92f442dda43d7250c63ba2823c96be42.png",
+        "cell_count": 48
+      },
+      {
+        "image_id": 30,
+        "image_filename": "0489736e8d880b5188b04d11c3131cd3.png",
+        "cell_count": 46
+      },
+      {
+        "image_id": 33,
+        "image_filename": "07872ee58dea1007dd5d4afa5fb2556d.png",
+        "cell_count": 46
+      },
+      {
+        "image_id": 34,
+        "image_filename": "b6bf215df9cc83413a7c5a61c64361da.png",
+        "cell_count": 4
+      },
+      {
+        "image_id": 35,
+        "image_filename": "bf7767fb55e9b4e77ea458f825f06e65.png",
+        "cell_count": 39
+      },
+      {
+        "image_id": 36,
+        "image_filename": "7f725f332e420bc3c96533e342802d4c.png",
+        "cell_count": 16
+      },
+      {
+        "image_id": 37,
+        "image_filename": "9e3b55d7afdc1573cc15b347d053ec07.png",
+        "cell_count": 38
+      },
+      {
+        "image_id": 38,
+        "image_filename": "466a61aa31579a2ffb3c561f5a5d37d0.png",
+        "cell_count": 47
+      },
+      {
+        "image_id": 39,
+        "image_filename": "dd569f426f91cc5d6a20804c800d6eb3.png",
+        "cell_count": 41
+      },
+      {
+        "image_id": 40,
+        "image_filename": "544a28aab9a8a0b827a18423e82280b1.png",
+        "cell_count": 11
+      },
+      {
+        "image_id": 41,
+        "image_filename": "33708abb81e40ff45d1510c44546e82f.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 43,
+        "image_filename": "e4c629cd4647aa3e1a5bd66590118b44.png",
+        "cell_count": 18
+      },
+      {
+        "image_id": 44,
+        "image_filename": "5ddea605aee431bb47d9580882733a87.png",
+        "cell_count": 37
+      },
+      {
+        "image_id": 46,
+        "image_filename": "2c0c4f9db92dc5b996c4e1b90aa2a0ec.png",
+        "cell_count": 16
+      },
+      {
+        "image_id": 47,
+        "image_filename": "80f0bb35228273e50637a673be666337.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 49,
+        "image_filename": "41766de1e13ae83bdad1f7b71a606340.png",
+        "cell_count": 20
+      },
+      {
+        "image_id": 50,
+        "image_filename": "6904abb84d55c002c01e119d241b18d9.png",
+        "cell_count": 26
+      },
+      {
+        "image_id": 51,
+        "image_filename": "1a7a2ec67cefb1f11748edd2573291a8.png",
+        "cell_count": 69
+      },
+      {
+        "image_id": 52,
+        "image_filename": "ed6b37f3f850247337f16501fe5fa7fd.png",
+        "cell_count": 38
+      },
+      {
+        "image_id": 54,
+        "image_filename": "c505515711e6d4153bd59214d979c041.png",
+        "cell_count": 17
+      },
+      {
+        "image_id": 57,
+        "image_filename": "28508d4d8bb189cedd8d6c79b8d529c9.png",
+        "cell_count": 53
+      },
+      {
+        "image_id": 58,
+        "image_filename": "c7d215de538362b06b7ae3a0d70eb0e4.png",
+        "cell_count": 59
+      },
+      {
+        "image_id": 59,
+        "image_filename": "5223912945e356e1d6de561ad62a946f.png",
+        "cell_count": 32
+      },
+      {
+        "image_id": 61,
+        "image_filename": "610487e58f3868cabe7aac6b0d327a39.png",
+        "cell_count": 46
+      },
+      {
+        "image_id": 62,
+        "image_filename": "83685961615806fbb89a8788aa117f05.png",
+        "cell_count": 78
+      },
+      {
+        "image_id": 64,
+        "image_filename": "69a7526d382f793aaccd7dfe79dd2901.png",
+        "cell_count": 89
+      },
+      {
+        "image_id": 65,
+        "image_filename": "e4910c7beb3eab919a7e93d4bcc04241.png",
+        "cell_count": 89
+      },
+      {
+        "image_id": 68,
+        "image_filename": "f29860b096765cfacea56a44c4fd805d.png",
+        "cell_count": 97
+      },
+      {
+        "image_id": 69,
+        "image_filename": "eb47620da7f5e3594085fb3279b1904a.png",
+        "cell_count": 32
+      },
+      {
+        "image_id": 70,
+        "image_filename": "5e5f9e511001c3ead65b7dc51897a1ba.png",
+        "cell_count": 93
+      },
+      {
+        "image_id": 71,
+        "image_filename": "c02c490c04b16068d3d7b0fad37c12e6.png",
+        "cell_count": 104
+      },
+      {
+        "image_id": 72,
+        "image_filename": "424a7ee29385c53e950de973f411a30c.png",
+        "cell_count": 33
+      },
+      {
+        "image_id": 73,
+        "image_filename": "19bdf3c429c892641865a1bd2b143fea.png",
+        "cell_count": 123
+      },
+      {
+        "image_id": 74,
+        "image_filename": "62b10ef656ce919574d9479871af5aee.png",
+        "cell_count": 57
+      },
+      {
+        "image_id": 75,
+        "image_filename": "458d0586e1dc5d723b54924fa1a75ab1.png",
+        "cell_count": 51
+      },
+      {
+        "image_id": 76,
+        "image_filename": "5e0c3876e86a354de6847e17b71133a4.png",
+        "cell_count": 76
+      },
+      {
+        "image_id": 77,
+        "image_filename": "28d57ea979962b5e05639ed582021cdd.png",
+        "cell_count": 40
+      },
+      {
+        "image_id": 78,
+        "image_filename": "408929e7f250196167bf4418c08fd999.png",
+        "cell_count": 51
+      },
+      {
+        "image_id": 79,
+        "image_filename": "ec342d2fc5da33cd79e9c1e3c507778e.png",
+        "cell_count": 13
+      },
+      {
+        "image_id": 81,
+        "image_filename": "0f023f6ad3d33b33334016798995fe53.png",
+        "cell_count": 10
+      },
+      {
+        "image_id": 82,
+        "image_filename": "dd61f345bc7cdcbf3bb86d58eb0992b4.png",
+        "cell_count": 35
+      },
+      {
+        "image_id": 83,
+        "image_filename": "27ce7facb22d6ed75c146a43d23e7dde.png",
+        "cell_count": 23
+      },
+      {
+        "image_id": 84,
+        "image_filename": "c7adf1972424f069b6355c500962722f.png",
+        "cell_count": 43
+      },
+      {
+        "image_id": 85,
+        "image_filename": "6bb20c67c4013e8805d0f64315b9bcb1.png",
+        "cell_count": 77
+      },
+      {
+        "image_id": 86,
+        "image_filename": "de81ced6d8b99536da382f09b4290d70.png",
+        "cell_count": 31
+      },
+      {
+        "image_id": 88,
+        "image_filename": "6335a5572eb69c87a905e2086964b929.png",
+        "cell_count": 23
+      },
+      {
+        "image_id": 89,
+        "image_filename": "4bdf1fe55c86e3fd82c022a744de5958.png",
+        "cell_count": 15
+      },
+      {
+        "image_id": 90,
+        "image_filename": "81508bd550a84bbe5731b93048e54270.png",
+        "cell_count": 19
+      },
+      {
+        "image_id": 93,
+        "image_filename": "9b712bff27856e5b7a14e4bbf67a4abc.png",
+        "cell_count": 25
+      },
+      {
+        "image_id": 94,
+        "image_filename": "02c7fb946ad5c5e5f9c1e1178c21fc92.png",
+        "cell_count": 10
+      },
+      {
+        "image_id": 95,
+        "image_filename": "9b77f6a1b82859bc68b26fae965564fa.png",
+        "cell_count": 42
+      },
+      {
+        "image_id": 96,
+        "image_filename": "c9b3f954a9d1e35591818b6c493facb9.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 97,
+        "image_filename": "299abd9ed2593fa2a0bcd9ba0c73a576.png",
+        "cell_count": 29
+      },
+      {
+        "image_id": 98,
+        "image_filename": "eb3f9b657f847098a227d3c826c6d19c.png",
+        "cell_count": 11
+      },
+      {
+        "image_id": 99,
+        "image_filename": "81c4574751d0daa8c717d37e047ec234.png",
+        "cell_count": 6
+      },
+      {
+        "image_id": 100,
+        "image_filename": "ee5338ab73b4db0c88f9e9dc98aca68e.png",
+        "cell_count": 35
+      },
+      {
+        "image_id": 101,
+        "image_filename": "688bb88091ed6d58563888211455a559.png",
+        "cell_count": 19
+      },
+      {
+        "image_id": 102,
+        "image_filename": "023fcddb41b212f8ac3edde190d4ae5c.png",
+        "cell_count": 16
+      },
+      {
+        "image_id": 103,
+        "image_filename": "b0fddd5dbd774fcc23ddf897ee7bf26c.png",
+        "cell_count": 15
+      },
+      {
+        "image_id": 108,
+        "image_filename": "5f5ca39f3cb7338eeaec5f00faa11447.png",
+        "cell_count": 39
+      },
+      {
+        "image_id": 110,
+        "image_filename": "05332b67f94b5d1adbd8177bd8e1ff0b.png",
+        "cell_count": 18
+      },
+      {
+        "image_id": 112,
+        "image_filename": "6bcb86179547a5f44a5622293f15d283.png",
+        "cell_count": 44
+      },
+      {
+        "image_id": 114,
+        "image_filename": "624930d9bfc4219ba1bdd73ea3fed13b.png",
+        "cell_count": 39
+      },
+      {
+        "image_id": 115,
+        "image_filename": "b885f6b8c2023a5b25c95fd0381f9892.png",
+        "cell_count": 19
+      },
+      {
+        "image_id": 116,
+        "image_filename": "ccfee7ab69cc4221156c47426b0e8ec8.png",
+        "cell_count": 58
+      },
+      {
+        "image_id": 117,
+        "image_filename": "21b6561df430853f3831fd83389c109f.png",
+        "cell_count": 53
+      },
+      {
+        "image_id": 118,
+        "image_filename": "886b686fa3d22bb870a6ba41e5d1b82d.png",
+        "cell_count": 34
+      },
+      {
+        "image_id": 120,
+        "image_filename": "79bd0d0b44949450452bd745fd795a9a.png",
+        "cell_count": 24
+      },
+      {
+        "image_id": 122,
+        "image_filename": "a83df706a2f6abcc60ee209fc3cb9b64.png",
+        "cell_count": 27
+      },
+      {
+        "image_id": 123,
+        "image_filename": "e9743b8e738f3f0bd2a084cbf8dc1cab.png",
+        "cell_count": 26
+      },
+      {
+        "image_id": 125,
+        "image_filename": "c642b1c083b38d9b56724bc76867459e.png",
+        "cell_count": 58
+      },
+      {
+        "image_id": 127,
+        "image_filename": "c22f24fa5dc7c8d99c2d2ba5e293960c.png",
+        "cell_count": 26
+      },
+      {
+        "image_id": 128,
+        "image_filename": "cef1983c1bb8c0d9eb60efe03cfb3582.png",
+        "cell_count": 15
+      },
+      {
+        "image_id": 129,
+        "image_filename": "b8f6374bc7c780a8b4fd99498b05afbb.png",
+        "cell_count": 50
+      },
+      {
+        "image_id": 132,
+        "image_filename": "763240077e66777b2a196a6af78c9716.png",
+        "cell_count": 59
+      },
+      {
+        "image_id": 133,
+        "image_filename": "4a34b60331799fdc99ccce2ac9531a9d.png",
+        "cell_count": 31
+      },
+      {
+        "image_id": 135,
+        "image_filename": "8d62bc0267b58954ef9fa8e355d6ec22.png",
+        "cell_count": 55
+      },
+      {
+        "image_id": 136,
+        "image_filename": "8cfdeaf76c0a48043406626f1a0b90a7.png",
+        "cell_count": 37
+      },
+      {
+        "image_id": 137,
+        "image_filename": "bcebe0cdee9c892e34e20a5bf3e96a20.png",
+        "cell_count": 48
+      },
+      {
+        "image_id": 141,
+        "image_filename": "30c400872fcaf018f0605eeff12d0f51.png",
+        "cell_count": 42
+      },
+      {
+        "image_id": 144,
+        "image_filename": "b8491225e9d46d5f48c33c310b7d2755.png",
+        "cell_count": 41
+      },
+      {
+        "image_id": 145,
+        "image_filename": "7a43cea47c58c87e989e37ba67714b53.png",
+        "cell_count": 24
+      },
+      {
+        "image_id": 146,
+        "image_filename": "055cde67bf7565df83f914b053ab86eb.png",
+        "cell_count": 33
+      },
+      {
+        "image_id": 147,
+        "image_filename": "7cadcc842e5559cd14a3cd1143dd8db0.png",
+        "cell_count": 44
+      },
+      {
+        "image_id": 148,
+        "image_filename": "ec14a8dad00ce2aa24bae8dd2683077b.png",
+        "cell_count": 79
+      },
+      {
+        "image_id": 149,
+        "image_filename": "4dbb52e87bc98d0d5a10cc0dc05fdc3f.png",
+        "cell_count": 49
+      },
+      {
+        "image_id": 150,
+        "image_filename": "c41261e68aabdf7ff5d4bc90c2efd8f3.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 151,
+        "image_filename": "8042f9c026bca2cf1761489102ea284f.png",
+        "cell_count": 25
+      },
+      {
+        "image_id": 152,
+        "image_filename": "3ae2fc6e5e6530f3291e21a8937c71b3.png",
+        "cell_count": 25
+      },
+      {
+        "image_id": 153,
+        "image_filename": "acd5b382631b7f7b22d5be5b42ebac05.png",
+        "cell_count": 31
+      },
+      {
+        "image_id": 154,
+        "image_filename": "49c8feec9afcd85f1f9b16908c34bdca.png",
+        "cell_count": 29
+      },
+      {
+        "image_id": 157,
+        "image_filename": "6df65e12916327e0c88c75191451a3f7.png",
+        "cell_count": 32
+      },
+      {
+        "image_id": 158,
+        "image_filename": "b5cde4d2a21fb2e2d70db49b1db1df50.png",
+        "cell_count": 13
+      },
+      {
+        "image_id": 159,
+        "image_filename": "c5a677e9d495b6c0419df420f65c5a26.png",
+        "cell_count": 16
+      },
+      {
+        "image_id": 162,
+        "image_filename": "5633910bdb41ea5626f7b60a8ef80af0.png",
+        "cell_count": 17
+      },
+      {
+        "image_id": 164,
+        "image_filename": "0a2a5a681410054941cc56f51eb8fbda.png",
+        "cell_count": 5
+      },
+      {
+        "image_id": 166,
+        "image_filename": "eeabc7b91c5ab80afd2907f4111c6376.png",
+        "cell_count": 7
+      },
+      {
+        "image_id": 167,
+        "image_filename": "b1f43c3a74ea03d4df18696b710a3fc4.png",
+        "cell_count": 15
+      },
+      {
+        "image_id": 170,
+        "image_filename": "c3342e85b3c771fadb1e7365b6eff252.png",
+        "cell_count": 7
+      },
+      {
+        "image_id": 173,
+        "image_filename": "4bae321eaa4fedb2a75bf5c53b14b4f4.png",
+        "cell_count": 38
+      },
+      {
+        "image_id": 174,
+        "image_filename": "4b474d44ad6dd5b66d25d339db5fe138.png",
+        "cell_count": 27
+      },
+      {
+        "image_id": 175,
+        "image_filename": "c489085d5447252cf12c696ae302af23.png",
+        "cell_count": 4
+      },
+      {
+        "image_id": 176,
+        "image_filename": "5613e617f960b8414dbec5aa38647f96.png",
+        "cell_count": 24
+      },
+      {
+        "image_id": 178,
+        "image_filename": "008df697b9283d9ad4774096584d2efb.png",
+        "cell_count": 5
+      },
+      {
+        "image_id": 179,
+        "image_filename": "b8df9a1c242fc6f825df3d16a1de8588.png",
+        "cell_count": 8
+      },
+      {
+        "image_id": 180,
+        "image_filename": "f5bd2f7c1dea1ebb6ab3aeb72834b282.png",
+        "cell_count": 14
+      },
+      {
+        "image_id": 182,
+        "image_filename": "c63289c59bca91f80b2dde9ac013cc57.png",
+        "cell_count": 19
+      },
+      {
+        "image_id": 183,
+        "image_filename": "d44546808b8c6976fbc7946f370562c4.png",
+        "cell_count": 29
+      },
+      {
+        "image_id": 184,
+        "image_filename": "1a57775542328ddeda39a1aaacebfef0.png",
+        "cell_count": 19
+      },
+      {
+        "image_id": 185,
+        "image_filename": "c02a44c85b736dce9991d38c3f5fdd14.png",
+        "cell_count": 7
+      },
+      {
+        "image_id": 187,
+        "image_filename": "8f4f6c8c7589b41794bb248571026f1f.png",
+        "cell_count": 11
+      },
+      {
+        "image_id": 189,
+        "image_filename": "03f5d5ec88161b9365bea549d7ce92cd.png",
+        "cell_count": 13
+      },
+      {
+        "image_id": 190,
+        "image_filename": "e6b13ffc7b9ba7170133da814ce6aa51.png",
+        "cell_count": 17
+      },
+      {
+        "image_id": 191,
+        "image_filename": "e40cc4bedbe9837b12f9343953b391ef.png",
+        "cell_count": 12
+      },
+      {
+        "image_id": 192,
+        "image_filename": "5c7feaaf66d0981fe28378fbab186509.png",
+        "cell_count": 38
+      },
+      {
+        "image_id": 194,
+        "image_filename": "040722a73af21747a3b66a8d69a235d0.png",
+        "cell_count": 9
+      },
+      {
+        "image_id": 196,
+        "image_filename": "afc49f54ae8294f041c7998bd02d5a8f.png",
+        "cell_count": 7
+      },
+      {
+        "image_id": 198,
+        "image_filename": "51219b4ad46ba947174b808fcee65478.png",
+        "cell_count": 8
+      },
+      {
+        "image_id": 199,
+        "image_filename": "5ebaeeae59a5bc5ca0d79d99cb4dcac1.png",
+        "cell_count": 14
+      },
+      {
+        "image_id": 200,
+        "image_filename": "8dc7e2c87515b5dd4261c2ef24e86b59.png",
+        "cell_count": 5
+      },
+      {
+        "image_id": 201,
+        "image_filename": "a9ceb5e547fed2f7d052cdc794cb1330.png",
+        "cell_count": 14
+      },
+      {
+        "image_id": 202,
+        "image_filename": "3f273237f9068624e14886afde134e09.png",
+        "cell_count": 10
+      },
+      {
+        "image_id": 204,
+        "image_filename": "ac988fe10c5e2b605b2c7e48f2af8701.png",
+        "cell_count": 11
+      },
+      {
+        "image_id": 205,
+        "image_filename": "33915ae53ce2cffb30485ad683a8c64e.png",
+        "cell_count": 18
+      },
+      {
+        "image_id": 206,
+        "image_filename": "a9a16f442db25098459cc72d4e816c2d.png",
+        "cell_count": 17
+      },
+      {
+        "image_id": 207,
+        "image_filename": "cafba392717cd7b7077f8aec6d99296c.png",
+        "cell_count": 4
+      },
+      {
+        "image_id": 208,
+        "image_filename": "9c42ed347e00dc159b9fb767b52de139.png",
+        "cell_count": 35
+      },
+      {
+        "image_id": 209,
+        "image_filename": "3c6531547003951472ce20fa1de720fc.png",
+        "cell_count": 9
+      },
+      {
+        "image_id": 211,
+        "image_filename": "75ae516a4fba3943054907d8f738aa73.png",
+        "cell_count": 16
+      },
+      {
+        "image_id": 214,
+        "image_filename": "85b6a7b08f5f5820a20b582046a7d7a9.png",
+        "cell_count": 24
+      },
+      {
+        "image_id": 215,
+        "image_filename": "3b73689cbb3b2a04a1a713230459f7e5.png",
+        "cell_count": 15
+      },
+      {
+        "image_id": 216,
+        "image_filename": "011fda505d7e4af4b8cc57545343624d.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 219,
+        "image_filename": "a478295afdbbbc6ca8d08b3a435a4528.png",
+        "cell_count": 2
+      },
+      {
+        "image_id": 220,
+        "image_filename": "5b3e7408f7ab2a8bce36cfda5a1e121b.png",
+        "cell_count": 37
+      },
+      {
+        "image_id": 221,
+        "image_filename": "2fd118764c0afa9a4e1ccbe9bd8210a5.png",
+        "cell_count": 27
+      },
+      {
+        "image_id": 223,
+        "image_filename": "b75d053b22d2ed9d019608c8508676b6.png",
+        "cell_count": 6
+      },
+      {
+        "image_id": 224,
+        "image_filename": "f996f3195bdb1c5ed08d97272ae16e62.png",
+        "cell_count": 27
+      },
+      {
+        "image_id": 225,
+        "image_filename": "fcc9c7e2fc1a0f4d30fa745308d15194.png",
+        "cell_count": 28
+      },
+      {
+        "image_id": 226,
+        "image_filename": "199ea9d75d6266bcc1be87995de6a70a.png",
+        "cell_count": 19
+      },
+      {
+        "image_id": 228,
+        "image_filename": "7d96810eb097fe737df7fc9eb0a8b3ed.png",
+        "cell_count": 23
+      },
+      {
+        "image_id": 229,
+        "image_filename": "f6ed8a6797cceb43ed891679cd4434de.png",
+        "cell_count": 77
+      },
+      {
+        "image_id": 230,
+        "image_filename": "6bf1d6248d10a7f358f28d39245bb8fe.png",
+        "cell_count": 28
+      },
+      {
+        "image_id": 231,
+        "image_filename": "dd245e5ad1da4d1d4b86786d2470d145.png",
+        "cell_count": 9
+      },
+      {
+        "image_id": 232,
+        "image_filename": "75d04c5e7ddcdf002714f7ef57d4e418.png",
+        "cell_count": 12
+      },
+      {
+        "image_id": 233,
+        "image_filename": "379c7ce231b0c43a3d9a964680573dce.png",
+        "cell_count": 17
+      },
+      {
+        "image_id": 234,
+        "image_filename": "eddca08930f139f44c5d22a48d9f2909.png",
+        "cell_count": 52
+      },
+      {
+        "image_id": 235,
+        "image_filename": "38b630ac8a1f02f6a466824f6babaf0e.png",
+        "cell_count": 46
+      },
+      {
+        "image_id": 236,
+        "image_filename": "221e5472253d8a712be2eb84079a6a72.png",
+        "cell_count": 63
+      },
+      {
+        "image_id": 237,
+        "image_filename": "8e39307fc74e68a5f4a6ae66764331b4.png",
+        "cell_count": 15
+      },
+      {
+        "image_id": 238,
+        "image_filename": "3f30a996dcac3c4845ba2e650fe874b5.png",
+        "cell_count": 18
+      },
+      {
+        "image_id": 239,
+        "image_filename": "f5cad8f1a038b616cb2ce4ca46183262.png",
+        "cell_count": 14
+      },
+      {
+        "image_id": 240,
+        "image_filename": "9dc92f731aa43451aaccdaabbca220fa.png",
+        "cell_count": 41
+      },
+      {
+        "image_id": 242,
+        "image_filename": "36ec7e0332c9ab3aa1edb53fe8f6cba8.png",
+        "cell_count": 44
+      },
+      {
+        "image_id": 243,
+        "image_filename": "431ffd642258bfa70558eb03afa9bc83.png",
+        "cell_count": 15
+      },
+      {
+        "image_id": 244,
+        "image_filename": "d718a645caa4281cefd7d6dc8f54e36b.png",
+        "cell_count": 12
+      },
+      {
+        "image_id": 245,
+        "image_filename": "fb8f92d163cb0370fa7fa8e7bbaa4edc.png",
+        "cell_count": 28
+      },
+      {
+        "image_id": 247,
+        "image_filename": "ebdd17c9dd496a1231cc29c081e78e80.png",
+        "cell_count": 13
+      },
+      {
+        "image_id": 250,
+        "image_filename": "539a88e6ce009eee5398bdbada60ff23.png",
+        "cell_count": 37
+      },
+      {
+        "image_id": 252,
+        "image_filename": "da51093be0db6b3ccd477a6aeddc2261.png",
+        "cell_count": 52
+      },
+      {
+        "image_id": 253,
+        "image_filename": "303399e0cd747a0646339f4e1f6c91a9.png",
+        "cell_count": 12
+      },
+      {
+        "image_id": 254,
+        "image_filename": "855dda15d3be4156803b1fa32ed2a19b.png",
+        "cell_count": 10
+      },
+      {
+        "image_id": 256,
+        "image_filename": "8932ac9bf855b72eef7390e7e486133e.png",
+        "cell_count": 17
+      },
+      {
+        "image_id": 257,
+        "image_filename": "3b536324e212ad03ae37afcf97d0c760.png",
+        "cell_count": 24
+      },
+      {
+        "image_id": 259,
+        "image_filename": "a0e4c7e0f677cfcdb5614940266d221e.png",
+        "cell_count": 9
+      },
+      {
+        "image_id": 260,
+        "image_filename": "9fc84cd39cefe6f1a7b54e92cd971210.png",
+        "cell_count": 30
+      },
+      {
+        "image_id": 261,
+        "image_filename": "6a8631b14ebfd221bad8b5238cf7dd03.png",
+        "cell_count": 19
+      },
+      {
+        "image_id": 262,
+        "image_filename": "425f92ac0896cfea0e4e674cd449ce23.png",
+        "cell_count": 17
+      },
+      {
+        "image_id": 263,
+        "image_filename": "5901e3526774e5847970bb8203c7c711.png",
+        "cell_count": 9
+      },
+      {
+        "image_id": 265,
+        "image_filename": "02c6113a42960d9617990a3b291cf65d.png",
+        "cell_count": 38
+      },
+      {
+        "image_id": 266,
+        "image_filename": "29bb0d0010f481423a9d4293ad1e67b2.png",
+        "cell_count": 27
+      },
+      {
+        "image_id": 268,
+        "image_filename": "8725a834d8421b4f506987ce6402613a.png",
+        "cell_count": 25
+      },
+      {
+        "image_id": 269,
+        "image_filename": "651555a374eacf3de392c98dbd85d44d.png",
+        "cell_count": 12
+      },
+      {
+        "image_id": 272,
+        "image_filename": "17192f69185395519f65be5358d32c3f.png",
+        "cell_count": 41
+      },
+      {
+        "image_id": 273,
+        "image_filename": "8c6d9eb30595ab305050c80d21aab128.png",
+        "cell_count": 11
+      },
+      {
+        "image_id": 274,
+        "image_filename": "a3cd8fc514a7a507198e186b5c58f9d2.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 275,
+        "image_filename": "4929d79aaa3dcea4133f2a17cb7e10e0.png",
+        "cell_count": 44
+      },
+      {
+        "image_id": 276,
+        "image_filename": "5d8297d46d5babc9aaba0652a2a5051f.png",
+        "cell_count": 38
+      },
+      {
+        "image_id": 278,
+        "image_filename": "b5236e7b9f5dc7783cce4dbb5fb1a082.png",
+        "cell_count": 26
+      },
+      {
+        "image_id": 279,
+        "image_filename": "5dccd5619d4469ed4516cbbcb4c29944.png",
+        "cell_count": 22
+      },
+      {
+        "image_id": 280,
+        "image_filename": "1e4460705ccdffafa78ceef35bf11ad2.png",
+        "cell_count": 16
+      },
+      {
+        "image_id": 281,
+        "image_filename": "477a31e5481902c6624a3d0407be13bf.png",
+        "cell_count": 40
+      },
+      {
+        "image_id": 282,
+        "image_filename": "04010e1dae8de0da7f038efd3a0a204a.png",
+        "cell_count": 11
+      },
+      {
+        "image_id": 284,
+        "image_filename": "a57e3c97ad51375f4656963d6bd88f8d.png",
+        "cell_count": 41
+      },
+      {
+        "image_id": 285,
+        "image_filename": "14ea41d8e885c165390da7e03f594d9d.png",
+        "cell_count": 26
+      },
+      {
+        "image_id": 287,
+        "image_filename": "7ba4a45ed026e5a7c8571c46b53a81bb.png",
+        "cell_count": 6
+      },
+      {
+        "image_id": 289,
+        "image_filename": "2cefdbf695da71852337ae3557ccdd38.png",
+        "cell_count": 20
+      },
+      {
+        "image_id": 291,
+        "image_filename": "a10c2955a9d8654bec42a0d21c8acb6c.png",
+        "cell_count": 10
+      },
+      {
+        "image_id": 292,
+        "image_filename": "35323790c9bcae22c96ab32a2fc165b9.png",
+        "cell_count": 23
+      },
+      {
+        "image_id": 293,
+        "image_filename": "f195a1576fa4437e8f31f35959554eda.png",
+        "cell_count": 39
+      },
+      {
+        "image_id": 296,
+        "image_filename": "ba64e833160b9da794e7aeb64207ba69.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 299,
+        "image_filename": "1ee9fd65fccbf776a6170b4e4d034335.png",
+        "cell_count": 8
+      },
+      {
+        "image_id": 300,
+        "image_filename": "19c7c2f6bb8dfb3143ab9f9be7dd3e9d.png",
+        "cell_count": 6
+      },
+      {
+        "image_id": 301,
+        "image_filename": "272c49a7303c02c8c000fe0bc3a6dbbe.png",
+        "cell_count": 5
+      },
+      {
+        "image_id": 302,
+        "image_filename": "555c3bddd4513160fb3681c88f4bcc87.png",
+        "cell_count": 12
+      },
+      {
+        "image_id": 305,
+        "image_filename": "30cef53c58d14524f9d49e24af9887fa.png",
+        "cell_count": 18
+      },
+      {
+        "image_id": 306,
+        "image_filename": "8c21e0dc6b8fbeddfd6f9923b4b1054c.png",
+        "cell_count": 16
+      },
+      {
+        "image_id": 308,
+        "image_filename": "aee74e3c1bcd82561303ee974d31c08f.png",
+        "cell_count": 20
+      },
+      {
+        "image_id": 309,
+        "image_filename": "d72288404d45ed33074fcfb77d099f2f.png",
+        "cell_count": 19
+      },
+      {
+        "image_id": 310,
+        "image_filename": "f4062608fdab5e483be224b0b807bfbb.png",
+        "cell_count": 54
+      },
+      {
+        "image_id": 313,
+        "image_filename": "c7f09970db9f10dbaf7e567234d1371a.png",
+        "cell_count": 7
+      },
+      {
+        "image_id": 314,
+        "image_filename": "debaf960d9af83738102e03ce40d4cc3.png",
+        "cell_count": 14
+      },
+      {
+        "image_id": 315,
+        "image_filename": "c1d551f467cac1389043740557caae1f.png",
+        "cell_count": 20
+      },
+      {
+        "image_id": 317,
+        "image_filename": "b4240350cfa007681725731c5eed73ac.png",
+        "cell_count": 3
+      },
+      {
+        "image_id": 318,
+        "image_filename": "a30fcaf343b17a21a7018e1ed1ec907e.png",
+        "cell_count": 11
+      },
+      {
+        "image_id": 319,
+        "image_filename": "31a989e43eb0a9645509eb60e068aefc.png",
+        "cell_count": 13
+      },
+      {
+        "image_id": 320,
+        "image_filename": "5921d98f5baacc86b3a1445540c858ee.png",
+        "cell_count": 14
+      },
+      {
+        "image_id": 321,
+        "image_filename": "abaafc46c2b0cecef1ddb0ba3202ae74.png",
+        "cell_count": 26
+      },
+      {
+        "image_id": 324,
+        "image_filename": "aa57acbb927273704ae48cf748a79351.png",
+        "cell_count": 7
+      },
+      {
+        "image_id": 325,
+        "image_filename": "ea0a94ccb2d1cee563d9d1f88309967e.png",
+        "cell_count": 5
+      },
+      {
+        "image_id": 326,
+        "image_filename": "f0f7dd54c926f100051df6361d0fbeac.png",
+        "cell_count": 6
+      },
+      {
+        "image_id": 327,
+        "image_filename": "491840cea6a38ba8af9779a0ec319f4e.png",
+        "cell_count": 18
+      },
+      {
+        "image_id": 328,
+        "image_filename": "4372f7114534a5e0b688673c15a43fa9.png",
+        "cell_count": 34
+      },
+      {
+        "image_id": 329,
+        "image_filename": "40387ef8bd22eb5167427ca9a25bc65a.png",
+        "cell_count": 8
+      },
+      {
+        "image_id": 330,
+        "image_filename": "3731e3064f5b3dfaf2df337f4b481c78.png",
+        "cell_count": 26
+      },
+      {
+        "image_id": 331,
+        "image_filename": "9a847d90855db08e9dbd0b040689c3cb.png",
+        "cell_count": 33
+      },
+      {
+        "image_id": 332,
+        "image_filename": "fb5e83755f682922aee859fd52013c36.png",
+        "cell_count": 7
+      },
+      {
+        "image_id": 335,
+        "image_filename": "239fed60a9c2ffa1abce3e958b69f317.png",
+        "cell_count": 16
+      },
+      {
+        "image_id": 336,
+        "image_filename": "862dd6f5e10f4b0622898c8c5ba7f3a3.png",
+        "cell_count": 12
+      },
+      {
+        "image_id": 337,
+        "image_filename": "16032768fe56bbb933730762d726d263.png",
+        "cell_count": 50
+      },
+      {
+        "image_id": 338,
+        "image_filename": "f7f0f05e4ea3c356b520371057e646b9.png",
+        "cell_count": 56
+      },
+      {
+        "image_id": 340,
+        "image_filename": "987a233d03cd94cd14e42ac9a2a5ab62.png",
+        "cell_count": 69
+      },
+      {
+        "image_id": 341,
+        "image_filename": "7da6d1898a00a92ef361c07b5a304ac2.png",
+        "cell_count": 12
+      },
+      {
+        "image_id": 342,
+        "image_filename": "12c15166cc92ff5c3ef75f735704365e.png",
+        "cell_count": 15
+      },
+      {
+        "image_id": 344,
+        "image_filename": "dbb1bf3a7bced124e9f9012a950eb06b.png",
+        "cell_count": 14
+      },
+      {
+        "image_id": 345,
+        "image_filename": "2abb345da4a749001db486464032e6ab.png",
+        "cell_count": 6
+      },
+      {
+        "image_id": 347,
+        "image_filename": "2810965a78043a20fc999bfddec80b90.png",
+        "cell_count": 14
+      },
+      {
+        "image_id": 349,
+        "image_filename": "0c2a10baed0650fa1f7bb87e5d83a545.png",
+        "cell_count": 24
+      },
+      {
+        "image_id": 350,
+        "image_filename": "94510a321f43fadd424e96343d6cab76.png",
+        "cell_count": 52
+      },
+      {
+        "image_id": 351,
+        "image_filename": "941ca821697b81353df26f6e422cbfdd.png",
+        "cell_count": 24
+      },
+      {
+        "image_id": 352,
+        "image_filename": "060d7d018977ad7cca7643f2deb6f3e8.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 353,
+        "image_filename": "151e9e19a4a8a347e2eeb00ad52a210f.png",
+        "cell_count": 3
+      },
+      {
+        "image_id": 354,
+        "image_filename": "fdcdaeed25a84e2966eda7ba86bdbcf6.png",
+        "cell_count": 19
+      },
+      {
+        "image_id": 356,
+        "image_filename": "ceff389b4171940ab84ba46c42fbeb72.png",
+        "cell_count": 18
+      },
+      {
+        "image_id": 358,
+        "image_filename": "e0c93ad46ad5dac7832427c1eb191c9e.png",
+        "cell_count": 16
+      },
+      {
+        "image_id": 359,
+        "image_filename": "ce95aaf77e8e7bcd44e4d1f731dea349.png",
+        "cell_count": 23
+      },
+      {
+        "image_id": 360,
+        "image_filename": "85a21c60c167f742b313ae379ef31fb2.png",
+        "cell_count": 46
+      },
+      {
+        "image_id": 361,
+        "image_filename": "8fd47c55033c1488a851a6660cc24f3a.png",
+        "cell_count": 74
+      },
+      {
+        "image_id": 362,
+        "image_filename": "e501b86a4eb392736b083deb8c4537f8.png",
+        "cell_count": 44
+      },
+      {
+        "image_id": 364,
+        "image_filename": "92eb1f2563016d967eb885ee1a5fd2dd.png",
+        "cell_count": 22
+      },
+      {
+        "image_id": 365,
+        "image_filename": "6276a59c41a41f34b59a647c412a9ab6.png",
+        "cell_count": 9
+      },
+      {
+        "image_id": 367,
+        "image_filename": "f1e600e1264144f6c44514f8abf0191a.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 370,
+        "image_filename": "b73f6ce80af2295f03792c3c2bdc338b.png",
+        "cell_count": 23
+      },
+      {
+        "image_id": 371,
+        "image_filename": "674fd708f0a5faed1e7057724ef43fb4.png",
+        "cell_count": 94
+      },
+      {
+        "image_id": 372,
+        "image_filename": "67f61d22243d7d51469eee3071e688cb.png",
+        "cell_count": 25
+      },
+      {
+        "image_id": 373,
+        "image_filename": "19b7ae0c1983488b205056be14cb8d3f.png",
+        "cell_count": 20
+      },
+      {
+        "image_id": 377,
+        "image_filename": "b849f2f30721992da28419731f8c4d21.png",
+        "cell_count": 6
+      },
+      {
+        "image_id": 379,
+        "image_filename": "326be63a57e19af9bff9a7df786b9987.png",
+        "cell_count": 15
+      },
+      {
+        "image_id": 380,
+        "image_filename": "f9df91b71002aad46ba2415744b0816c.png",
+        "cell_count": 4
+      },
+      {
+        "image_id": 381,
+        "image_filename": "f503e5ca8eb5564129dcf3b1b78d8f6f.png",
+        "cell_count": 10
+      },
+      {
+        "image_id": 382,
+        "image_filename": "6cdee50089fd0f8937732789776cd025.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 383,
+        "image_filename": "d15e51987c8439946557b0f0829ad5a1.png",
+        "cell_count": 18
+      },
+      {
+        "image_id": 384,
+        "image_filename": "54562f3bda233bc849ce844c2d6d0809.png",
+        "cell_count": 102
+      },
+      {
+        "image_id": 385,
+        "image_filename": "5c64597b1e31000275d0d6d97f935d58.png",
+        "cell_count": 19
+      },
+      {
+        "image_id": 386,
+        "image_filename": "855ef72948b5ef0f051083d1cceca3f9.png",
+        "cell_count": 11
+      },
+      {
+        "image_id": 389,
+        "image_filename": "bef90ce102d8ea3841e78ed81d2d03ea.png",
+        "cell_count": 85
+      },
+      {
+        "image_id": 390,
+        "image_filename": "1208a64963167c6b7d56a072f8b8ee1a.png",
+        "cell_count": 47
+      },
+      {
+        "image_id": 391,
+        "image_filename": "0d07c6d5b42ace6162cff25fc06b21b9.png",
+        "cell_count": 35
+      },
+      {
+        "image_id": 392,
+        "image_filename": "ac20a24b37b7e87dcc375e6b7420d40e.png",
+        "cell_count": 16
+      },
+      {
+        "image_id": 394,
+        "image_filename": "f1662645f23a20ea9806ca8c6d655fba.png",
+        "cell_count": 85
+      },
+      {
+        "image_id": 396,
+        "image_filename": "ba9d94a8fdbaba01220db89cde170b24.png",
+        "cell_count": 106
+      },
+      {
+        "image_id": 398,
+        "image_filename": "0cc6e576dac3046d279bba515e10a7a9.png",
+        "cell_count": 44
+      },
+      {
+        "image_id": 400,
+        "image_filename": "9ae8a4edde40219bad6303cebc672ee4.png",
+        "cell_count": 47
+      }
+    ],
+    "val": [
+      {
+        "image_id": 1,
+        "image_filename": "be340ee72689dfe3f8dc9c24de6127f4.png",
+        "cell_count": 42
+      },
+      {
+        "image_id": 10,
+        "image_filename": "fb100898ae793bb2475fd6d3ee92ef31.png",
+        "cell_count": 17
+      },
+      {
+        "image_id": 15,
+        "image_filename": "fe7dccb72ee17d6776970bdb5e5ba3ba.png",
+        "cell_count": 36
+      },
+      {
+        "image_id": 22,
+        "image_filename": "d67cd01defdc182ca48cee14e776f22c.png",
+        "cell_count": 52
+      },
+      {
+        "image_id": 25,
+        "image_filename": "f981c4aac622d7cce71a81305dd38ade.png",
+        "cell_count": 56
+      },
+      {
+        "image_id": 31,
+        "image_filename": "88e5e1814b1a2c4d30e28f8b98ba157c.png",
+        "cell_count": 77
+      },
+      {
+        "image_id": 32,
+        "image_filename": "ee78da0c06d978fec8d86a8d97182445.png",
+        "cell_count": 19
+      },
+      {
+        "image_id": 45,
+        "image_filename": "e42d8978f7ff44cd74a646b97b1c2c1c.png",
+        "cell_count": 33
+      },
+      {
+        "image_id": 53,
+        "image_filename": "d6e125d4b1ff838100937af08b912f0b.png",
+        "cell_count": 29
+      },
+      {
+        "image_id": 55,
+        "image_filename": "61b751b4e6c2a79d0369b24683339be1.png",
+        "cell_count": 75
+      },
+      {
+        "image_id": 56,
+        "image_filename": "e5ea9cccfefaf9d788e1447821752285.png",
+        "cell_count": 38
+      },
+      {
+        "image_id": 60,
+        "image_filename": "05481195119c8cfb884bf1462b53b004.png",
+        "cell_count": 68
+      },
+      {
+        "image_id": 63,
+        "image_filename": "4e36cfad62c065237107d1a0fe1abd9b.png",
+        "cell_count": 72
+      },
+      {
+        "image_id": 80,
+        "image_filename": "e131600fb2e2442a74a46722d621a1ff.png",
+        "cell_count": 12
+      },
+      {
+        "image_id": 105,
+        "image_filename": "f12544c3bfc1959d2010d7ec4f41cc56.png",
+        "cell_count": 4
+      },
+      {
+        "image_id": 107,
+        "image_filename": "2fcce94875a4487c35970f75ad569640.png",
+        "cell_count": 8
+      },
+      {
+        "image_id": 109,
+        "image_filename": "0b1732c713ea3f212e602c004fedeb65.png",
+        "cell_count": 41
+      },
+      {
+        "image_id": 111,
+        "image_filename": "e57d535d86c5898be4e897eaed05c8c6.png",
+        "cell_count": 34
+      },
+      {
+        "image_id": 113,
+        "image_filename": "edc3ac951f31fca241b7f04d2c5daac5.png",
+        "cell_count": 24
+      },
+      {
+        "image_id": 119,
+        "image_filename": "ba49ee2fe18405a74c4daaef256365cc.png",
+        "cell_count": 20
+      },
+      {
+        "image_id": 124,
+        "image_filename": "d87688d665139adb1d9dec9f902fa4a9.png",
+        "cell_count": 45
+      },
+      {
+        "image_id": 140,
+        "image_filename": "ae9ad0a0e62cb046468591ce92237bfc.png",
+        "cell_count": 61
+      },
+      {
+        "image_id": 143,
+        "image_filename": "c01b36e0a384197ca9a2e6bcd2c552e1.png",
+        "cell_count": 29
+      },
+      {
+        "image_id": 156,
+        "image_filename": "66c20a252497fd16ec17a40b5dbc05f6.png",
+        "cell_count": 14
+      },
+      {
+        "image_id": 160,
+        "image_filename": "fbb86fcc0948f02be36a1348d1046688.png",
+        "cell_count": 16
+      },
+      {
+        "image_id": 163,
+        "image_filename": "1c900ddde4d55e63c0d06c4854b29f89.png",
+        "cell_count": 10
+      },
+      {
+        "image_id": 165,
+        "image_filename": "7c09a4a52e0cb6ffc6a10044dd321123.png",
+        "cell_count": 8
+      },
+      {
+        "image_id": 168,
+        "image_filename": "c99bb99a4e4ab6bbabceeea1bd229447.png",
+        "cell_count": 32
+      },
+      {
+        "image_id": 171,
+        "image_filename": "cb206130cf379df998fa4fd995411ea7.png",
+        "cell_count": 13
+      },
+      {
+        "image_id": 172,
+        "image_filename": "bdb0651112686ecfdb9db5b4d2e1d0e7.png",
+        "cell_count": 11
+      },
+      {
+        "image_id": 177,
+        "image_filename": "96d54337d5489e81ce6ad5508d7a5434.png",
+        "cell_count": 15
+      },
+      {
+        "image_id": 186,
+        "image_filename": "09ddefdfc9ca8df4da326825425336d3.png",
+        "cell_count": 16
+      },
+      {
+        "image_id": 203,
+        "image_filename": "dada70571c7ddf32b8bbbf448a6880a4.png",
+        "cell_count": 7
+      },
+      {
+        "image_id": 210,
+        "image_filename": "b3b5a33dee9c880c1abb235a50a5cd81.png",
+        "cell_count": 10
+      },
+      {
+        "image_id": 212,
+        "image_filename": "6e20d6ec569513933f5768d5424b7e86.png",
+        "cell_count": 13
+      },
+      {
+        "image_id": 213,
+        "image_filename": "0c52e27c5383dd946fffdf0253f96067.png",
+        "cell_count": 15
+      },
+      {
+        "image_id": 217,
+        "image_filename": "5a65081dd9202379699a7518fd51a9a5.png",
+        "cell_count": 22
+      },
+      {
+        "image_id": 246,
+        "image_filename": "c4f51dd4f48d013f69b4c5e2adced54d.png",
+        "cell_count": 31
+      },
+      {
+        "image_id": 248,
+        "image_filename": "a5ce47f6a10f543bf7fdac28b709d30d.png",
+        "cell_count": 43
+      },
+      {
+        "image_id": 249,
+        "image_filename": "bd7e1530680d11547db567150fa7c403.png",
+        "cell_count": 38
+      },
+      {
+        "image_id": 251,
+        "image_filename": "e457af606b15cffb99021a1018f1424f.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 264,
+        "image_filename": "094367d4b4e508075c004d2e2f08c7ef.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 267,
+        "image_filename": "f7b28bd33b541782b308e1a3ef84995a.png",
+        "cell_count": 20
+      },
+      {
+        "image_id": 277,
+        "image_filename": "449a3b9bd9ad2cc080d8960bb3834968.png",
+        "cell_count": 62
+      },
+      {
+        "image_id": 286,
+        "image_filename": "519e7eefd219097919196d38beb06136.png",
+        "cell_count": 7
+      },
+      {
+        "image_id": 288,
+        "image_filename": "00b1e59ebc3e7be500ef7548207d44e2.png",
+        "cell_count": 26
+      },
+      {
+        "image_id": 290,
+        "image_filename": "f24560268564c05b0f400bed26cc74f6.png",
+        "cell_count": 6
+      },
+      {
+        "image_id": 298,
+        "image_filename": "d8e4b84f30c820328c07765d8f1f4c73.png",
+        "cell_count": 10
+      },
+      {
+        "image_id": 307,
+        "image_filename": "532d83297919d817648393a46f6835db.png",
+        "cell_count": 17
+      },
+      {
+        "image_id": 312,
+        "image_filename": "e195831951b7e556d3ca5f497ad4bc9c.png",
+        "cell_count": 46
+      },
+      {
+        "image_id": 316,
+        "image_filename": "9cb5c0144965b0274edc70210f100940.png",
+        "cell_count": 23
+      },
+      {
+        "image_id": 322,
+        "image_filename": "d40792e661b40a04ccf56f5e992c5d0c.png",
+        "cell_count": 9
+      },
+      {
+        "image_id": 357,
+        "image_filename": "8c202a2617293100cafc0ee30c52bd7e.png",
+        "cell_count": 14
+      },
+      {
+        "image_id": 363,
+        "image_filename": "c1647f9466f402dee1065a2466c11047.png",
+        "cell_count": 17
+      },
+      {
+        "image_id": 366,
+        "image_filename": "6a2ed524278daea0ddd2f37a47ca2b69.png",
+        "cell_count": 24
+      },
+      {
+        "image_id": 368,
+        "image_filename": "a110c8eecfe599a9120a3aec324f0da8.png",
+        "cell_count": 11
+      },
+      {
+        "image_id": 375,
+        "image_filename": "78d680144e599148615a263fb6048f66.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 376,
+        "image_filename": "da21a895881b3ba7d6108dba4a4ce17a.png",
+        "cell_count": 5
+      },
+      {
+        "image_id": 395,
+        "image_filename": "1a1319ef78624dc20d4a43cadde1da01.png",
+        "cell_count": 113
+      },
+      {
+        "image_id": 399,
+        "image_filename": "dc2df7c3f88649ded343b13b9486cddf.png",
+        "cell_count": 40
+      }
+    ],
+    "test": [
+      {
+        "image_id": 9,
+        "image_filename": "71abd3d9c8d0e5738c1db3328645fde8.png",
+        "cell_count": 12
+      },
+      {
+        "image_id": 11,
+        "image_filename": "90d08f57cdeb58238879b4af949d4f50.png",
+        "cell_count": 28
+      },
+      {
+        "image_id": 13,
+        "image_filename": "ac1ed15ddc7fb3d7e6a9c7521eeebe78.png",
+        "cell_count": 62
+      },
+      {
+        "image_id": 23,
+        "image_filename": "77acea6065f24cef2351ef3bc2af43a1.png",
+        "cell_count": 44
+      },
+      {
+        "image_id": 26,
+        "image_filename": "584d79af21c45131e9af9d54d2c2b8e4.png",
+        "cell_count": 70
+      },
+      {
+        "image_id": 42,
+        "image_filename": "45c237e071148a104c2770fbca5e67a8.png",
+        "cell_count": 12
+      },
+      {
+        "image_id": 48,
+        "image_filename": "c7c3f56a4d110b49099830b0f65251a3.png",
+        "cell_count": 47
+      },
+      {
+        "image_id": 66,
+        "image_filename": "3831ee45ac7b7283b9becaa7116d8f33.png",
+        "cell_count": 51
+      },
+      {
+        "image_id": 67,
+        "image_filename": "ce433f891aafce35a31e058364a98194.png",
+        "cell_count": 37
+      },
+      {
+        "image_id": 87,
+        "image_filename": "aab4785d3320a7fd40e5ec45caf36b72.png",
+        "cell_count": 28
+      },
+      {
+        "image_id": 91,
+        "image_filename": "18f547031e43fa4fa11c2ceb03d1aaaa.png",
+        "cell_count": 69
+      },
+      {
+        "image_id": 92,
+        "image_filename": "66ac6258c1215e76435accb18ec68f08.png",
+        "cell_count": 32
+      },
+      {
+        "image_id": 104,
+        "image_filename": "3265df8f2ecb21f1688c33025e540df8.png",
+        "cell_count": 8
+      },
+      {
+        "image_id": 106,
+        "image_filename": "de74adc961e7cfaecd97f7e7e5e9a571.png",
+        "cell_count": 7
+      },
+      {
+        "image_id": 121,
+        "image_filename": "84c4b1e0a44ff6f6ce78e04f751518ed.png",
+        "cell_count": 40
+      },
+      {
+        "image_id": 126,
+        "image_filename": "fc7e39dda329976b5095eef082d6e998.png",
+        "cell_count": 28
+      },
+      {
+        "image_id": 130,
+        "image_filename": "a42845987c650d7243ad0c08e97debf5.png",
+        "cell_count": 55
+      },
+      {
+        "image_id": 131,
+        "image_filename": "7d9c47264d5ffa28fdb561d0be14bb90.png",
+        "cell_count": 15
+      },
+      {
+        "image_id": 134,
+        "image_filename": "8f99ed3b3a6ef71e354c099db23e7498.png",
+        "cell_count": 34
+      },
+      {
+        "image_id": 138,
+        "image_filename": "c0d57801655afd0ab48ad3f1e4b43603.png",
+        "cell_count": 42
+      },
+      {
+        "image_id": 139,
+        "image_filename": "f015142693fefeb45ad5202b66404293.png",
+        "cell_count": 17
+      },
+      {
+        "image_id": 142,
+        "image_filename": "c899c91db0a340602f35d125ec47fb74.png",
+        "cell_count": 26
+      },
+      {
+        "image_id": 155,
+        "image_filename": "37264b18b1096a6515b8ce006c6568ee.png",
+        "cell_count": 48
+      },
+      {
+        "image_id": 161,
+        "image_filename": "e8795423a9b8dadabdfaac3547c17abe.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 169,
+        "image_filename": "21b10fc9c3e06aaea9b934a68b29d832.png",
+        "cell_count": 7
+      },
+      {
+        "image_id": 181,
+        "image_filename": "ad4c619f92f722c47fed0bed95045fcd.png",
+        "cell_count": 21
+      },
+      {
+        "image_id": 188,
+        "image_filename": "430addb0dc6daf0e6271fb6efe1a9777.png",
+        "cell_count": 44
+      },
+      {
+        "image_id": 193,
+        "image_filename": "c0dad84e596a1fd11720827eda489983.png",
+        "cell_count": 25
+      },
+      {
+        "image_id": 195,
+        "image_filename": "a7b7d4eb6367ad432a806b5662ff44e0.png",
+        "cell_count": 12
+      },
+      {
+        "image_id": 197,
+        "image_filename": "7275dd2f91a0dbb6e49b28da3f456c57.png",
+        "cell_count": 8
+      },
+      {
+        "image_id": 218,
+        "image_filename": "7756dcc0d11e89797a0a2f25e99d3b07.png",
+        "cell_count": 17
+      },
+      {
+        "image_id": 222,
+        "image_filename": "ed10d2a300c0f99915a467afc514c5cf.png",
+        "cell_count": 15
+      },
+      {
+        "image_id": 227,
+        "image_filename": "f261e4379ef4e11a13db19e54b698395.png",
+        "cell_count": 6
+      },
+      {
+        "image_id": 241,
+        "image_filename": "ab81d6ae2c9e6ba88aa8d094019358cb.png",
+        "cell_count": 5
+      },
+      {
+        "image_id": 255,
+        "image_filename": "550a723278b6eb460f4cf76bd5dbaff0.png",
+        "cell_count": 42
+      },
+      {
+        "image_id": 258,
+        "image_filename": "a88f00847363c89e1960ade289b38612.png",
+        "cell_count": 13
+      },
+      {
+        "image_id": 270,
+        "image_filename": "29f484bfc17af22288d78f7187777fc6.png",
+        "cell_count": 10
+      },
+      {
+        "image_id": 271,
+        "image_filename": "0d2057f820c3b157fd030fe3308f60dc.png",
+        "cell_count": 20
+      },
+      {
+        "image_id": 283,
+        "image_filename": "5966509346d31911ac8644a23e128f56.png",
+        "cell_count": 9
+      },
+      {
+        "image_id": 294,
+        "image_filename": "4f8e654e9c41b941ef6ced7a6b833917.png",
+        "cell_count": 7
+      },
+      {
+        "image_id": 295,
+        "image_filename": "18379ef3f64b0efa33ee42877fdd6947.png",
+        "cell_count": 9
+      },
+      {
+        "image_id": 297,
+        "image_filename": "7b04019e566ede8ebbbce0ffd3a7601e.png",
+        "cell_count": 11
+      },
+      {
+        "image_id": 303,
+        "image_filename": "7c38ddce962298663b96ec38a7561b56.png",
+        "cell_count": 30
+      },
+      {
+        "image_id": 304,
+        "image_filename": "c5304cb4ceea0d7c9c64e26b6b3e804e.png",
+        "cell_count": 22
+      },
+      {
+        "image_id": 311,
+        "image_filename": "5b9327cfecd550d543d371d0c94b2bad.png",
+        "cell_count": 31
+      },
+      {
+        "image_id": 323,
+        "image_filename": "502a16718f0316c85196c0e491f37fd3.png",
+        "cell_count": 18
+      },
+      {
+        "image_id": 333,
+        "image_filename": "a26e4ca310cc5150b95c849657f6d0d9.png",
+        "cell_count": 6
+      },
+      {
+        "image_id": 334,
+        "image_filename": "515abacf9c89f439f90e7d34b406f581.png",
+        "cell_count": 31
+      },
+      {
+        "image_id": 339,
+        "image_filename": "9073bf65a95626d36c392876535fbd34.png",
+        "cell_count": 136
+      },
+      {
+        "image_id": 343,
+        "image_filename": "b31ae3b8ec79bc3999e4165ca22ad373.png",
+        "cell_count": 20
+      },
+      {
+        "image_id": 346,
+        "image_filename": "aff2bee962c634294622f44a16b4f968.png",
+        "cell_count": 17
+      },
+      {
+        "image_id": 348,
+        "image_filename": "eb88a78cefd39ef4f57be86f7d6c55b6.png",
+        "cell_count": 53
+      },
+      {
+        "image_id": 355,
+        "image_filename": "efb31641309ac289f6c7d7259fe95ecb.png",
+        "cell_count": 18
+      },
+      {
+        "image_id": 369,
+        "image_filename": "519384b776f2f4e5d18fae3e8c66d0ff.png",
+        "cell_count": 4
+      },
+      {
+        "image_id": 374,
+        "image_filename": "39f65c61194a94113080add1c7d5a198.png",
+        "cell_count": 17
+      },
+      {
+        "image_id": 378,
+        "image_filename": "b7c9bdb02733f1e3d77ac191115c15f7.png",
+        "cell_count": 36
+      },
+      {
+        "image_id": 387,
+        "image_filename": "b5bc96650b0315465891547e78e4490c.png",
+        "cell_count": 62
+      },
+      {
+        "image_id": 388,
+        "image_filename": "6a642a0409ea6f1ffd234d666d6c9319.png",
+        "cell_count": 23
+      },
+      {
+        "image_id": 393,
+        "image_filename": "363b6b00d925e5c52694b8f7b678c53b.png",
+        "cell_count": 9
+      },
+      {
+        "image_id": 397,
+        "image_filename": "dbf4ff8985d6e352b46cd8f42add72e8.png",
+        "cell_count": 91
+      }
+    ]
+  }
+}
